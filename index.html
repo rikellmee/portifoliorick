@@ -4,14 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="animation.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/e053104435.js" crossorigin="anonymous"></script>
     <title>Portifolio do Rick</title>
 </head>
 
 <body>
     <nav>
+        <i id="hamburguer" class="fa-solid fa-bars" onClick="openNav()"></i>
         <a href="#inicio">Inicio</a>
         <a href="#sobre">Sobre</a>
         <a href="#certificados">certificados</a>
@@ -47,7 +50,16 @@
         </div>
     </section>
     <section id="certificados">
-
+        <div class="right">
+            <p>Trabalho com TI a 3 anos</p>
+            <p>E ao decorrer dessa carreira, consegui varias certificações</p>
+            <p>Escaneie o QRcode ao lado ou clique nele para ver!</p>
+        </div>
+        <div class="left">
+            <a href="https://drive.google.com/drive/folders/1nbKAPRGyIWI8ZWEDxdbsjcGaI3N7YiPD?usp=sharing" target="_blank" rel="noopener noreferrer">
+                <img src="assets/qr-code.png" alt="">
+            </a>
+        </div>
     </section>
     <section id="projetos">
 
